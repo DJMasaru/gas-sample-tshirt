@@ -7,6 +7,7 @@ function categorize(e) {
 
   console.log(e.values)
   console.log(e.namedValues)
+  console.log("gitテスト")
 
   let name = e.namedValues["名前"];
   let size = e.namedValues["T シャツのサイズ"];
