@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>閲覧ページ</title>
+<script type="text/javascript">
+function nextPage(){
+  let pwd = prompt('パスワードを入力ください');
+  if(pwd=="1234"){
+  location.href="https://docs.google.com/spreadsheets/d/1qVCmBJeopD5YH5zFublwtRosbTjZyoJDrul5np2zgto/edit?resourcekey#gid=144380959";
+  }else{
+  alert('パスワードが違います');
+  }
+  }
+</script>
+</head>
+<body>
+<form name="form1">
+<!-- <input type="password" name="pass"> -->
+<input type="button" value="閲覧する" onClick="nextPage();">
+</form>
+</body>
+</html>
